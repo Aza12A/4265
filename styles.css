@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+/* Общий стиль страницы */
+body {
+    font-family: 'Orbitron', sans-serif;
+    background-color: #4b0082; /* Чистый фиолетовый фон */
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Заголовок */
+header {
+    background: #240046; /* Темно-фиолетовый */
+    padding: 20px;
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Карточки */
+.invitation, .details {
+    background: rgba(255, 255, 255, 0.1);
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 450px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    transition: transform 0.3s ease-in-out;
+}
+
+.invitation:hover, .details:hover {
+    transform: scale(1.05);
+}
+
+/* Подвал */
+footer {
+    background: #240046;
+    padding: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 50px;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #666;
+    font-size: 18px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
